@@ -1,3 +1,5 @@
+package unla_orientacion_a_objetos_1_EJERCICIO_1;
+
 
 public class TestArregloUnidimensional {
 
@@ -13,3 +15,4 @@ public class TestArregloUnidimensional {
 	}
 
 }
+

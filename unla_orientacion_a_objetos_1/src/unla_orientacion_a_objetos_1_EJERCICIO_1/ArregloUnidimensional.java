@@ -1,4 +1,7 @@
+package unla_orientacion_a_objetos_1_EJERCICIO_1;
+
 import java.util.*;
+
 public class ArregloUnidimensional {
 	
 	private int[] vector;
@@ -79,3 +82,5 @@ public class ArregloUnidimensional {
 	
 	
 }
+
+
