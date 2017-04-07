@@ -1,4 +1,4 @@
-package unla_orientacion_a_objetos_1_EJERCICIO_1;
+package clasesDePrograma;
 
 import java.util.*;
 
@@ -82,5 +82,4 @@ public class ArregloUnidimensional {
 	
 	
 }
-
 
