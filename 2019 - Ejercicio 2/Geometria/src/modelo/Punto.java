@@ -47,8 +47,26 @@ public class Punto {
 	 *En ambos casos la firma, es decir, el nombre del metodo es el mismo.
 	 *
 	 *LOS OBJETOS SE COMPARAN CON EQUALS
-	 * 
-	 */
+	 *
+	 *Hay variables primitivas y variables de clase
+	 *
+	 *	Las clases pueden tener atributos aunque tambièn pueden tener atributos de variables de clase.
+	 *
+	 *Entre clases puede haber diferentes relaciones que son representadas en UML:
+	 *		
+	 *		Composición:
+	 *				
+	 *				Si limpio memoria en el objeto que contiene a la otra clase, se libera
+	 *				tambien el objeto contenido.
+	 *				
+	 *
+	 *		Agregación:
+	 * 				
+	 *				Porque cada clase es independiente, no desaparece si se elimina una.
+	 *
+	 *
+	 *
+	 */				
 	
 	
 }
