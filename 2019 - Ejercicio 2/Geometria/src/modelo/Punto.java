@@ -33,9 +33,27 @@ public class Punto {
 	
 	public double calcularDistancia (Punto p) {
 		double aux = 0;
+		int x1=0;
+		int y1=0;
+		
+		x1=p.getX();
+		y1=p.getY();
+		
+		aux=
 		
 		return aux;
 	}
+
+	public boolean equals(Punto p){
+		return ((x==p.getX())&&(y==p.getY()));
+		}
+	 
+
+
+
+
+	 
+
 	
 	/*	
 	 *Diferencia entre Polimorfismo y Sobrecarga
@@ -63,6 +81,14 @@ public class Punto {
 	 *		Agregación:
 	 * 				
 	 *				Porque cada clase es independiente, no desaparece si se elimina una.
+	 *
+	 *El método equals(), se utiliza para comparar dos objetos. Ojo no confundir con el 
+	 * operador ==, que ya sabemos que sirve para comparar tambien, equals compara si dos objetos apuntan al mismo objeto.
+		Equals() se usa para saber si dos objetos son del mismo tipo y tienen los mismos datos. 
+		Nos dara el valor true si son iguales y false si no.
+		Las subclases pueden sobreescribir el método equals() parahacer una comparación entre dos objetos.
+		En la lista de argumentos del método equals() hay que pasarle un argumento de tipo Object. 
+		sino se sobrecarga el método, no se sobreescribe.
 	 *
 	 *
 	 *
